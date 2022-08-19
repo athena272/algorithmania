@@ -13,5 +13,5 @@ int example2(int number)
 void main()
 {
   example1();
-  example2();
+  example2(8);
 }
