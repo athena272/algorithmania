@@ -10,6 +10,11 @@ int example2(int number)
   return number;
 }
 
+int example3(int data[])
+{
+  return data[0];
+}
+
 void main()
 {
   example1();
