@@ -4,4 +4,8 @@ myArray = [-1, 2, 3, 5, 456]
 
 print(bisect.bisect(myArray, 5))
 bisect.insort(myArray, 888)
-print(myArray)
+print(myArray)  
+
+#busca O (n log n)
+#bisect is O(log n )
+
