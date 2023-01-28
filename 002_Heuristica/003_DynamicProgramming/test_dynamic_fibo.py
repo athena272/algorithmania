@@ -16,3 +16,6 @@ class MyTest(unittest.TestCase):
 
     def test_slow_tests(self):
         self.assertEqual(9227465, dynamic_fibonacci(35))
+
+    def test_stack_overflow_tests(self):
+        self.assertEqual(9227465, dynamic_fibonacci(3529))
