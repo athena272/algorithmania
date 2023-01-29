@@ -21,4 +21,4 @@ def another_reverse_string(string):
     return string_reverse == string
 
 
-print(manually_way("bab"))
+print(manually_way("Lon Nol"))
