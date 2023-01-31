@@ -9,14 +9,7 @@
 #                 return [i, j]
 
 #     return False
-# def worst_two_sum(target, array):
-#     for i in range(len(array)):
-#         for j in range(i + 1, len(array)):
 
-#             if target == (array[i] + array[j]):
-#                 return [array[i], array[j]]
-
-#     return False
 def worst_two_sum(target, array):
     for number1_index in range(len(array)):
         number1 = array[number1_index]
